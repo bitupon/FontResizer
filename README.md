@@ -12,3 +12,7 @@ Markup :  *	Maximum/Minimum Font Size value can be set.
 
 #Getting Started
 To Get Started please go through the documentation inside the folder
+ Markup : * Bullet list
+           * Nested bullet
+            * Sub-nested bullet etc
+          * Bullet list item 2
