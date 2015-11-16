@@ -43,26 +43,26 @@ This Repository contains a JQuery plugin to resize Font size in a website
 
 3. By default, the three different <a> elements with “fontResizeController” functionality will act on the HTML blocks/elements with Class Name “text”. But one can override this Class Name to any other name of his/her choice. Example – 
 
-`<script type="text/javascript">`
-    `$(document).ready(function(){`
-            `$("#font-increase").fontResizeController(`
-                   `{"fontResize": "increase", "tarClass": "MyClass"});`
-            `$("#font-decrease").fontResizeController(`
-                   `{"fontResize": "decrease", "tarClass": "MyClass"});`
-            `$("#font-reset").fontResizeController(`
-                   `{"fontResize": "reset", "tarClass": "MyClass"});`
-    `})        `
-`</script>`
-`<body>`
-     `<ul>`
-         `<li><a id="font-reset">Increase</a></li> `
-         `<li><a id="font-decrease">Decrease</li>`
-         `<li><a id="font-increase">Reset</a></li>`
-     `</ul>`
-     `<div class="MyClass">`
-        `Some Text….`
-     `</div>`
-`</body>`
+        `<script type="text/javascript">`
+            `$(document).ready(function(){`
+                    `$("#font-increase").fontResizeController(`
+                           `{"fontResize": "increase", "tarClass": "MyClass"});`
+                    `$("#font-decrease").fontResizeController(`
+                           `{"fontResize": "decrease", "tarClass": "MyClass"});`
+                    `$("#font-reset").fontResizeController(`
+                           `{"fontResize": "reset", "tarClass": "MyClass"});`
+            `})        `
+        `</script>`
+        `<body>`
+             `<ul>`
+                 `<li><a id="font-reset">Increase</a></li> `
+                 `<li><a id="font-decrease">Decrease</li>`
+                 `<li><a id="font-increase">Reset</a></li>`
+             `</ul>`
+             `<div class="MyClass">`
+                `Some Text….`
+             `</div>`
+        `</body>`
 
 
 # Configuration
