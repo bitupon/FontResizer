@@ -63,3 +63,14 @@ This Repository contains a JQuery plugin to resize Font size in a website
         `Some Text….`
      `</div>`
 `</body>`
+
+
+# Configuration
+
+Sl. No.    | Property  | Type    | Default | Description
+---------- | ----------| ------- | --------| ------------
+1          | tarClass  | string  | “text”  | The value of this property is the Class Name used in the HTML elements where the Font resize occurs.
+2          | minSize   | integer | 4       |The value of this property is the minimum value until which Font-Size decrease occurs.
+3          | maxSize   | integer | 30      | The value of this property is the maximum value until which Font-Size increase occurs.
+4          | fontResize| string  | “Increase”  | The value of this property tells the fontResizeController whether to increase, decrease or reset the Font-Size.
+5          | step      | integer | 1       | The value of this property tells by what degree the Font-Size needs to be increase or decrease.
