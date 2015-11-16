@@ -12,3 +12,8 @@ This Repository contains a JQuery plugin to resize Font size in a website
 
 #Getting Started
 1. To use the “FontResizeController” plugin, include the jQuery library and the “FontResizeController” plugin inside the <head> tag of your HTML document:
+  
+`<script type="text/javascript" src="/path/to/jquery-latest.js"></script> `
+`<script type="text/javascript" src="/path/to/fontResizeController.js"></script> `
+
+2.	Start by telling “FontResizeController” to make the following three <a> elements to control Font-Size by configuring with the “fontResize” property with three possible values namely “increase”, ”decrease” and “reset”. 
