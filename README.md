@@ -11,9 +11,4 @@ This Repository contains a JQuery plugin to resize Font size in a website
 
 
 #Getting Started
-To Get Started please go through the documentation inside the folder
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+1. To use the “FontResizeController” plugin, include the jQuery library and the “FontResizeController” plugin inside the <head> tag of your HTML document:
