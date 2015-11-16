@@ -12,7 +12,8 @@ Markup :  *	Maximum/Minimum Font Size value can be set.
 
 #Getting Started
 To Get Started please go through the documentation inside the folder
- Markup : * Bullet list
-           * Nested bullet
-            * Sub-nested bullet etc
-          * Bullet list item 2
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
