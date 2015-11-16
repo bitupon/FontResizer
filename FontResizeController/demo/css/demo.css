@@ -1,0 +1,101 @@
+/**************************
+ *  Filename : demo.css
+ *  Desc :  CSS Ruleset for styling the demo.html
+ *  Author : Bitupon chetia
+ **************************/
+body{
+    font-family: "Arial", Georgia, Serif;
+}
+.demo-header{
+    border:solid 1px #ccc;    
+    width:1024px;
+    margin: auto;
+}
+.demo-header .title{
+    font-size: 30px;
+    padding: 20px 20px;
+    float: left;
+    width:47%;
+}
+.demo-header .fontSizeControllerSettings{
+    padding: 20px 20px;
+    list-style: none;
+    float: right;
+    width:30%;
+    margin: 0px;
+}
+.demo-header .fontSizeControllerSettings li{
+    display: inline;
+    float: right;
+    margin-left: 10px;
+}
+.demo-header .fontSizeControllerSettings li a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: solid 1px #000;
+    cursor: pointer;
+    background: #333333;
+}
+.demo-header .fontSizeControllerSettings li a .icon-increase,
+.demo-header .fontSizeControllerSettings li a .icon-decrease,
+.demo-header .fontSizeControllerSettings li a .icon-reset{
+    display: block;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.demo-header .fontSizeControllerSettings li a .icon-increase{
+    background: url("../img/icon-increase.svg") no-repeat 10px 10px;
+}
+.demo-header .fontSizeControllerSettings li a .icon-decrease{
+    background: url("../img/icon-decrease.svg") no-repeat 10px 10px;
+}
+.demo-header .fontSizeControllerSettings li a .icon-reset{
+    background: url("../img/icon-reset.svg") no-repeat 10px 10px;
+}
+.demo-content{
+   
+    width:1024px;
+    margin: auto;
+}
+.demo-footer{
+    border:solid 1px #ccc;
+    
+    width:1024px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+    
+}
+.demo-content .content-top,
+.demo-content .content-left,
+.demo-content .content-right,
+.demo-content .content-bottom{
+    
+    padding: 10px;
+    margin-top: 10px;
+    background: #f2f2f2;
+}
+
+
+.demo-content .content-top{
+    font-size: 14px;
+}
+.demo-content .content-left{    
+    width: 47%;
+    float: left;
+    font-size: 1em;
+    min-height: 400px;
+}
+.demo-content .content-right{    
+    width: 47%;
+    float: right;
+    font-size: 17px;
+     min-height: 400px;
+}
+.demo-content .content-bottom{
+    font-size: 1cm;
+}
