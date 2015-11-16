@@ -36,11 +36,9 @@ This Repository contains a JQuery plugin to resize Font size in a website
                 `Some Text….`
             `</div>`
             `</body>`
-
+***
 **Note: You can use any html element to implement the functionality of the “fontResizeController”**
 ***
-
-
 3. By default, the three different <a> elements with “fontResizeController” functionality will act on the HTML blocks/elements with Class Name “text”. But one can override this Class Name to any other name of his/her choice. Example – 
 
         `<script type="text/javascript">`
